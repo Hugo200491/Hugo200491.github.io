@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+
+
+<html lang="fr">
+
+<head>
+	<meta name="author" content="x">
+	<meta charset="isolatin15">
+	<meta name="description" content="page vide ">
+	<meta name="keywords" content="HTML">
+	<link rel="stylesheet" href="color.css">
+    <link rel="icon" href="couleur-logo.png" type="image" sizes="20x20">
+    <link rel="preconnect" href="https://fonts.gstatic.com" async>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+	<script src="color.js" async></script>
+	<title>Create Colors</title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body id="body" class="body" >
+
+
+
+	<div id="h" class="page">
+
+
+		<div class="header" id="hh">
+			<h1 id="hhh" style="text-align: center; padding: 15px;">CREATE COLORS WITH HUGO</h1>
+		</div>
+
+		<div id="hhhh" class="header2">
+			<h2 id="hhhhh">Create colors with Hugo    -    Create colors with Hugo    -    Create colors with Hugo    -    Create colors with Hugo  </h2>
+		</div>
+
+
+		<ul class="ul" id="coucou">
+			<li class="li"><a id="coucou2" style="background-color: #e8a72f;color: black;" href="color.html">Accueil Couleur</a></li>
+			<li class="li"><a id="coucou3" href="exercices.html">Exercices</a></li>
+			<li class="li" style="float:right"><a id="coucou4" href="contact.html">Contact</a></li>
+		</ul>
+
+
+		<div style="margin-left: 2%; padding: 1px 16px; height: 990px;">
+
+            <div id="fontcolor" class="fontcolor">
+			<h1>Accueil</h1>
+
+
+
+		
+
+			<p>Bonjour, vous êtes actuelement sur le site Create Colors With Hugo.
+                <br> Ce site va vous permettre de créer manuellement vos couleurs, avec le taux de rouge, de vert et de bleu.
+				<br> De plus, vous pouvez changer le thème de la page ainsi que copier le code hexadécimale avec un simple bouton !
+				<br>
+				<br>Enjoy !
+			</p>
+
+			
+			<h1>Mon mélangeur de couleur</h1>
+
+			<p>R : <input type="number" class="inputstyle" id="rouge" value="0" onkeyup="commun1(), hexared()"/>  <input type="button" class="button" id="-button" value="-" onclick="supp1(), hexared()"> <input type="button" class="button" id="+button" value="+" onclick="add1(), hexared()"> --> <span id="scorered">0</span></p> 
+			<p>V : <input type="number" class="inputstyle" id="vert" value="0" onkeyup="commun2(), hexared()"/>  <input type="button" class="button" id="-button2" value="-" onclick="supp2(), hexared()"> <input type="button" class="button" id="+button2" value="+" onclick="add2(), hexared()"> --> <span id="scoregreen">0</span></p>
+            <p>B : <input type="number" class="inputstyle" id="bleu" value="0" onkeyup="commun3(), hexared()"/>  <input type="button" class="button" id="-button3" value="-" onclick="supp3(), hexared()"> <input type="button" class="button" id="+button3" value="+" onclick="add3(), hexared()"> --> <span id="scoreblue">0</span></p>    
+            
+    
+
+			<p id="hexa2" style="margin-top: 30px;">Le code couleur Hexadécimal résultants est : <input type="text" style="width: 80px;background-color: #1F1F1F; color: #e8a72f; border: none; font-size: 19px;" readonly id="hexa10" value="#000000"/></p>
+			
+
+			<button class="button" id="copie" onclick="myFunction()">Copier le code hexadécimale</button>
+
+			<div style="margin-top: 30px;background-color: #000000;position: relative;width: 100%;height: 135px;width: 500px;border-radius: 10px; border-color: 'red'; border-width: 2px;border-style: solid;" id="color"></div>
+	  
+			
+			<br>
+
+
+<p>Cliquez ici pour changer le thème de la page :</p>
+
+<label class="switch">
+	<input type="checkbox">
+	<span class="slider round" onclick="theme()"></span>
+  </label>
+
+        </div>
+           
+
+		</div>
+
+        <div id="bas" class="bas">
+            <p id="bas2">Created by Hugo Deleporte<br>1G8<br>20/12/20</p>
+        </div>
+	
+    
+
+</body>
+
+</html>

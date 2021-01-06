@@ -1,0 +1,19 @@
+// noir et jaune
+#1f1f1f
+#e8a72f
+
+//beige et marron
+#cdb7a2
+#442012
+
+//violet et rose
+#28293e
+#de9898
+
+//vert et rose
+#2e6760
+#fff6ff
+
+//rouge et vert
+#f77458
+#282e22
